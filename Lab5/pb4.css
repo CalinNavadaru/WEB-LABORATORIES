@@ -1,0 +1,10 @@
+#tabel2 {
+    border: 1px solid black;
+    width: 50%; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+}
+
+#tabel2 td {
+    border: 1px solid black; /* Change the color as needed */
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+#social a {
+    display: block;
+    width: 84px;
+    height: 84px;
+    background-image: url("css-pr4.png");
+}
+
+#social .facebook {
+    background-position: 0 0;
+}
+
+#social .facebook:hover {
+    background-position: 0 -84px;
+}
+
+#social .ceva {
+    background-position: -84px 0;
+}
+
+#social .ceva:hover {
+    background-position: -84px -84px;
+}
+
+#social .altceva {
+    background-position: calc(84px * -2) 0;
+}
+
+#social .altceva:hover {
+    background-position: calc(84px * -2) -84px;
+}
+
+#social .google {
+    background-position: calc(84px * -3) 0;
+}
+
+#social .google:hover {
+    background-position: calc(84px * -3) -84px;
+}
+
+#social .linkedin {
+    background-position: calc(84px * -4) 0;
+}
+
+#social .linkedin:hover {
+    background-position: calc(84px * -4) -84px;
+}
+
+#social .ceva2 {
+    background-position: calc(84px * -5) 0;
+}
+
+#social .ceva2:hover {
+    background-position: calc(84px * -5) -84px;
+}
+
+#social .wifi {
+    background-position: calc(84px * -6) 0;
+}
+
+#social .wifi:hover {
+    background-position: calc(84px * -6) -84px;
+}
+
+#social .skype {
+    background-position: calc(84px * -7) 0;
+}
+
+#social .skype:hover {
+    background-position: calc(84px * -7) -84px;
+}
+
+#social .twitter {
+    background-position: calc(84px * -8) 0;
+}
+
+#social .twitter:hover {
+    background-position: calc(84px * -8) -84px;
+}
+
+#social .v {
+    background-position: calc(84px * -9) 0;
+}
+
+#social .v:hover {
+    background-position: calc(84px * -9) -84px;
+}
+
+#social .youtube {
+    background-position: calc(84px * -10) 0;
+}
+
+#social .youtube:hover {
+    background-position: calc(84px * -10) -84px;
+}
+

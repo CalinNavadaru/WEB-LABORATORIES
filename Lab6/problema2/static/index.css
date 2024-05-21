@@ -1,0 +1,17 @@
+#next {
+    width: 4%;
+    height: 4%;
+}
+
+#person_table {
+    border-collapse: collapse;
+}
+
+#person_table td, #person_table th {
+    border: 1px solid black;
+}
+
+#prev {
+    width: 4%;
+    height: 4%;
+}

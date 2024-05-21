@@ -1,0 +1,18 @@
+#tabel {
+    border-collapse: collapse;
+}
+
+#tabel td {
+    border: 5px solid lightgreen;
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+#tabel th {
+    border: 5px solid green;
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}

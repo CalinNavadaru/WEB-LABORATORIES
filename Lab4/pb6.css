@@ -1,0 +1,12 @@
+#tabel3 {
+    border: 1px solid black;
+    width: 50%; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+}
+
+#tabel3 td {
+    border: 1px solid black; /* Change the color as needed */
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}

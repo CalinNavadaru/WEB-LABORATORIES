@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema6</title>
+    <link rel="stylesheet" href="../static/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<table id="tabel">
+    <tr>
+        <th>Procesor</th>
+        <th>Memorie RAM</th>
+        <th>Capacitate</th>
+        <th>Placa video</th>
+    </tr>
+    {% for elem in list_comp %}
+    <tr>
+        <td> {{ elem [1] }}</td>
+        <td> {{ elem [2] }}</td>
+        <td> {{ elem [3] }}</td>
+        <td> {{ elem [4] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<form id="formular">
+    <label for="procesor">Procesor:</label>
+    <select id="procesor">
+    {% for elem in set_p %}
+    {% if loop.index0 == 0 %}
+    <option selected> {{ elem }}</option>
+    {% else %}
+    <option> {{ elem }}</option>
+    {% endif %}
+    {%endfor %}
+    </select>
+    <label for="ram">RAM:</label><select id="ram">
+    {% for elem in set_r %}
+    {% if loop.index0 == 0 %}
+    <option selected> {{ elem }}</option>
+    {% else %}
+    <option> {{ elem }}</option>
+    {% endif %}
+    {% endfor %}
+</select>
+    <label for="capacitate">Procesor:</label><select id="capacitate">
+    {% for elem in set_c %}
+    {% if loop.index0 == 0 %}
+    <option selected> {{ elem }}</option>
+    {% else %}
+    <option> {{ elem }}</option>
+    {% endif %}
+    {%endfor %}
+</select>
+    <label for="video">Procesor:</label><select id="video">
+    {% for elem in set_v %}
+    {% if loop.index0 == 0 %}
+    <option selected> {{ elem }}</option>
+    {% else %}
+    <option> {{ elem }}</option>
+    {% endif %}
+    {%endfor %}
+</select>
+    <input type="submit" id="btn" value="Filtreaza">
+</form>
+</body>
+<script src="../static/pb6_jquery.js"></script>
+</html>

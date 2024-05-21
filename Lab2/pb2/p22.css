@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#div3 {
+    display: flex;
+    display-model: column;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: 80vh;
+    width: 30%;
+}
+
+nav a {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    border-bottom: black 1px solid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 70%;
+    text-align: left;
+    justify-content: center;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+footer {
+    background-color: purple;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

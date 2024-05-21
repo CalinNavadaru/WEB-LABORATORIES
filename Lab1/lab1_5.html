@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Laboratorul1 HTML5</title>
+</head>
+<body>
+<h1>Cumparare Bilete</h1>
+<img src="CFR-800x500.jpg" alt="Trenuri">
+<p>
+    CFR Călători este o companie de transport feroviar de persoane din România, deținută de stat, înființată în anul
+    1998, prin reorganizarea fostului CFR. În anul 2015 a pus în circulație zilnic aproximativ 1.300 de trenuri.
+</p>
+<form method="GET">
+    Prenumele: <input type="text" name="firstname" required><br>
+    Numele: <input type="text" name="lastname" required><br>
+    Email: <input type="email" name="useremail" required><br>
+    Parol&#259;: <input type="password" name="userpassword" required><br>
+    Telefon: <input type="tel" name="usertelephone" placeholder="1234567890" pattern="07[0-9]{8}" maxlength="12"
+                    title="Introduceti numarul de telefon!" required><br>
+    <div>
+        <img src="romania.png" alt="rute">
+    </div>
+    Rutele de ast&#259;zi:<br>
+    <table>
+        <tr>
+            <th>Cod tren</th>
+            <th>Direc&#355;ia</th>
+            <th>Nr. Locuri</th>
+        </tr>
+        <tr>
+            <td>IC 531</td>
+            <td>Bra&#351;ov - Cluj-Napoca</td>
+            <td> 200</td>
+        </tr>
+        <tr>
+            <td>IRN 1642</td>
+            <td>Bra&#351;ov - Bucure&#351;ti</td>
+            <td> 300</td>
+        </tr>
+        <tr>
+            <td>IR 12543</td>
+            <td>Bra&#351;ov - Ia&#351;i</td>
+            <td> 250</td>
+        </tr>
+    </table>
+    Nr. bilete: <input type="number" name="numbertickets" required> <br>
+    Tip Bilet:
+    <select name="typeticket">
+        <option value="student">Student</option>
+        <option value="child">Copil</option>
+        <option value="adult">Adult</option>
+        <option value="retired">Pensionar</option>
+    </select> <br>
+    Tip Tren:
+    <ul>
+        <li>IC</li>
+        <li>IR</li>
+        <li>IRN</li>
+    </ul>
+    <table>
+        <tr>
+            <th>Cod tren</th>
+            <th>Direc&#355;ia</th>
+            <th>Nr. Locuri</th>
+            <th>Pre&#355; bilete</th>
+        </tr>
+        <tr>
+            <td>IC 531</td>
+            <td>Bra&#351;ov - Cluj-Napoca</td>
+            <td> 200</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Copii</td>
+                        <td>0 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Studen&#355;i</td>
+                        <td>10 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Adult</td>
+                        <td>100 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Pensionar</td>
+                        <td>50 de lei</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>IR 12543</td>
+            <td>Bra&#351;ov - Ia&#351;i</td>
+            <td> 250</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Copii</td>
+                        <td>0 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Studen&#355;i</td>
+                        <td>15 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Adult</td>
+                        <td>150 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Pensionar</td>
+                        <td>75 de lei</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>IRN 1642</td>
+            <td>Bra&#351;ov - Bucure&#351;ti</td>
+            <td> 300</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Copii</td>
+                        <td>0 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Studen&#355;i</td>
+                        <td>5 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Adult</td>
+                        <td>50 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Pensionar</td>
+                        <td>25 de lei</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    Meniu:<br>
+    <table>
+        <tr>
+            <th>Tip m&#226;ncare</th>
+            <th>Op&#355;iuni</th>
+        </tr>
+        <tr>
+            <td rowspan="3">
+                Sandiviciuri
+            </td>
+            <td>Cu pui</td>
+        </tr>
+        <tr>
+            <td>Cu porc</td>
+        </tr>
+        <tr>
+            <td>Cu curcan &#351;i ca&#351;caval</td>
+        </tr>
+        <tr>
+            <td rowspan="4">B&#259;uturi</td>
+            <td>Ap&#259;</td>
+        </tr>
+        <tr>
+            <td>Coca Cola</td>
+        </tr>
+        <tr>
+            <td>Sprite</td>
+        </tr>
+        <tr>
+            <td>Fanta</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Dulciuri</td>
+            <td>Twix</td>
+        </tr>
+        <tr>
+            <td>Milka</td>
+        </tr>
+    </table>
+    Op&#355;iuni:<br>
+    <select name="options" multiple>
+        <option>Scaun &#238;nc&#259;lzit</option>
+        <option>Pern&#259;</option>
+        <option>C&#259;&#351;ti pentru muzic&#259;</option>
+    </select> <br>
+    Top &#238;nt&#226;rzieri:<br>
+    <ol type="1">
+        <li>17 ore</li>
+        <li>4 ore</li>
+        <li>3 ore</li>
+        <li>2 ore</li>
+        <li>1 or&#259;</li>
+        <li>30 de minute</li>
+    </ol>
+    <textarea name="feedback" rows="15" cols="30">Feedback sau anumite detalii importante pentru c&#259;l&#259;toria
+        dumneavoastr&#259;!</textarea>
+    <input type="submit" value="Confirmare!">
+    <input type="reset" value="Resetare!">
+    <p> V </p>
+    <hr>
+    <a href="https://www.cfrcalatori.ro/">CFR C&#258;L&#258;TORI</a>
+</form>
+</body>
+</html>

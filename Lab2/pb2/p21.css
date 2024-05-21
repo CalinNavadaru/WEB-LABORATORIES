@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: left;
+}
+
+nav {
+    background-color: yellow;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav a {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-right: black 2px solid;
+}
+
+/*nav a::after {*/
+/*    content: " | ";*/
+/*}*/
+
+/*!*nav a:last-child::after {*!*/
+/*!*    content: "";*!*/
+/*!*}*!*/
+
+main {
+    background-color: green;
+    height: 78vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    background-color: purple;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

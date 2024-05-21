@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Rute</h1>
+<label for="departure">
+    <select id="departure">
+        {% for item in list1 %}
+        <option value="{{ item[0] }}">{{ item[0] }}</option>
+        {% endfor %}
+    </select>
+</label>
+<label for="arrival">
+    <select id="arrival">
+        {% for item in list2 %}
+            {% if loop.first %}
+                <option value="{{ item[0] }}" selected>{{ item[0] }}</option>
+            {% else %}
+                <option value="{{ item[0] }}">{{ item[0] }}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+</label>
+</body>
+<script src="../static/pb1_jquery.js"></script>
+</html>

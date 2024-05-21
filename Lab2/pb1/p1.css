@@ -1,0 +1,28 @@
+#div0 {
+    display: flex;
+}
+
+#div1 {
+    border: black solid 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+#div2 {
+    border: blue solid 1px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+@media (max-width: 200px) {
+    #pizza2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
